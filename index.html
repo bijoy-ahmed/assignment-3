@@ -61,7 +61,7 @@
           </ul>
         </div>
         <div class="navbar-end">
-            <i class="fa-solid fa-magnifying-glass mr-3"></i>
+            <i class="hidden lg:block fa-solid fa-magnifying-glass mr-3"></i>
             <a class="btn btn-error py-3 px-6 text-white">Get Ticket</a>
         </div>
       </div>
@@ -445,34 +445,44 @@
 
 <!-- footer section -->
 <footer class="bg-[#131318] mt-10 footer p-10 bg-base-200 text-base-content ">
-  <aside class="">
-    <h2 class="text-[#FFF]">Get In Touch</h2>
-     <p class="text-[#FFFFFF99]" >The thrilling sound of skates cutting through the ice,<br> the puck gliding swiftly from stick to stick.</p>
-     <p class="text-[#FFFFFF99]"><i class=" text-red-600 mr-3 fa-regular fa-envelope"></i>hockeys@support.com</p>
-     <p class="text-[#FFFFFF99]"><i class="text-red-500 fa-solid fa-phone-volume mr-3"></i>(+62) 123-321-543</p>
-  </aside> 
-  <nav>
-    <header class="footer-title text-[#FFF]">Company</header> 
-    <a class="link link-hover text-[#FFFFFF99] ">About us</a>
-    <a class="link link-hover text-[#FFFFFF99]">Leadership</a>
-    <a class="link link-hover text-[#FFFFFF99]">Careers</a>
-    <a class="link link-hover text-[#FFFFFF99]">News & Article </a>
-    <a class="link link-hover text-[#FFFFFF99]">Legal Notice</a>
-  </nav> 
-  <nav>
-    <header class="footer-title text-[#FFF]">Support</header> 
-    <a class="link link-hover text-[#FFFFFF99]">Help Center</a>
-    <a class="link link-hover text-[#FFFFFF99]">FAQ</a>
-    <a class="link link-hover text-[#FFFFFF99]">Ticket Support</a>
-    <a class="link link-hover text-[#FFFFFF99]">Contact Us</a>
-  </nav> 
-  <nav>
-    <header class="footer-title text-[#FFF]">Services</header> 
-    <a class="link link-hover text-[#FFFFFF99]">Academy</a>
-    <a class="link link-hover text-[#FFFFFF99]">Group Lesson</a>
-    <a class="link link-hover text-[#FFFFFF99]">Hockeys</a>
-    <a class="link link-hover text-[#FFFFFF99]">For Adult</a>
+  <div class="lg:grid lg:grid-cols-4">
+
+    <aside class="text-center lg:text-left space-y-2">
+      <h2 class="text-[#FFF]">Get In Touch</h2>
+       <p class="text-[#FFFFFF99]" >The thrilling sound of skates cutting through the <br> ice the puck gliding swiftly from stick to stick.</p>
+       <p class="text-[#FFFFFF99]"><i class=" text-red-600 mr-3 fa-regular fa-envelope"></i>hockeys@support.com</p>
+       <p class="text-[#FFFFFF99]"><i class="text-red-500 fa-solid fa-phone-volume mr-3"></i>(+62) 123-321-543</p>
+    </aside> 
+     <div class="flex gap-28 lg:flex-none mt-6">
+      <nav class="grid space-y-2">
+        <header class="footer-title text-[#FFF]">Company</header> 
+          <a class="link link-hover text-[#FFFFFF99] ">About us</a>
+          <a class="link link-hover text-[#FFFFFF99]">Leadership</a>
+          <a class="link link-hover text-[#FFFFFF99]">Careers</a>
+          <a class="link link-hover text-[#FFFFFF99]">News & Article </a>
+          <a class="link link-hover text-[#FFFFFF99]">Legal Notice</a>
+          </nav>
+      
+      <nav class="grid">
+        <header class="footer-title text-[#FFF]">Support</header> 
+        <a class="link link-hover text-[#FFFFFF99]">Help Center</a>
+        <a class="link link-hover text-[#FFFFFF99]">FAQ</a>
+        <a class="link link-hover text-[#FFFFFF99]">Ticket Support</a>
+        <a class="link link-hover text-[#FFFFFF99]">Contact Us</a>
+      </nav>
+    </div>
+    <nav class="mx-auto mt-6">
+      <header class=" footer-title text-[#FFF]">Servicse</header> 
+      <div class="grid space-y-2">
+        <a class="link link-hover text-[#FFFFFF99]">Academy</a>
+      <a class="link link-hover text-[#FFFFFF99]">FAQ</a>
+      <a class="link link-hover text-[#FFFFFF99]">Ticket Support</a>
+      <a class="link link-hover text-[#FFFFFF99]">Contact Us</a>
+      </div>
+    
     </nav>
+
+  </div>
 </footer>
 </body>
 </html>
